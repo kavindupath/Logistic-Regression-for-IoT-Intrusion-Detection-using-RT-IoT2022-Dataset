@@ -4,7 +4,7 @@ This project applies logistic regression to classify and detect intrusion attack
 ## Dataset
 - **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/942/rt-iot2022)
 - **Citation:** Sharmila & Nagapadma (2024)
-- 
+  
 ## Feature preprocessing:
 - Handling categorical features (proto, service)
 - Label encoding attack types as normal (0) or malicious (1)
@@ -24,6 +24,9 @@ This project applies logistic regression to classify and detect intrusion attack
 - `scikit-learn`
 - `pandas`, `numpy`, `matplotlib`, `seaborn`
 - `ucimlrepo` for fetching the dataset
+
+This project was developed as part of an Assignment 1 for the subject CSCI446/946 at the School of Computing and Information Technology, University of Wollongong.
+
 
 ## Evaluation
 - Accuracy and classification metrics
